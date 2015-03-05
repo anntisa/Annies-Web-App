@@ -1,0 +1,80 @@
+/*------ template stylization ------*/
+body {
+	background: #2f3133 url(../img/patternbg.jpg) 0 0 repeat;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*------------links headings-----------*/
+p {
+	font-family: 'Arial', sans-serif;
+	font-size: 20px;
+	line-height: 22px;
+	color: #BAFFFF;
+	margin: 10;
+	padding: 10;
+	margin-bottom: 15px;
+}
+h2 {
+	font-family: 'Georgia', serif;
+	font-size: 26px;
+	line-height: 28px;
+	color: #474848;
+	margin: 0;
+	padding: 35px 0;
+}
+h3 {
+	text-transform: uppercase;
+	font-family: 'Georgia', serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #4e4134;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+/*-------- Logo -------- */
+.logo-header {
+	float:none;
+	display: block;
+	position: relative;
+	margin: 0;
+	text-align: center;
+	padding: 0;
+	margin: 130px auto 60px;
+
+}
+
+/*-----------menu --------*/
+.menuheader {
+	background: #545658;
+	text-align: center;
+	padding-top:15px;
+	padding-bottom:15px;
+	font-size: 25px;
+	text-shadow: 1px 1px 2px #333639;
+}
+.menuheader .nav ul li a:hover {
+	color: #474848;
+	text-decoration: none;
+}
+
+/*--------------image----------*/
+.cropheaderimage {
+	position:relative;
+	max-width: 100%;
+	height:400px;
+	overflow:hidden;
+}
+.cropheaderimage img{
+	position:absolute;
+	bottom:0%;
+}
+.cropheaderimage img.banner{
+	width:100%;
+	height:auto;
+}
