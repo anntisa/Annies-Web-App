@@ -37,6 +37,8 @@ h3 {
 	padding: 0;
 }
 
+
+
 /*-------- Logo -------- */
 .logo-header {
 	float:none;
@@ -62,6 +64,29 @@ h3 {
 	color: #474848;
 	text-decoration: none;
 }
+
+/* unvisited link */
+#menuLink:link {
+    color: #ffffff;
+}
+
+/* visited link */
+#menuLink:visited {
+    color: #ffffff;
+}
+
+/* mouse over link */
+#menuLink:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* selected link */
+#menuLink:active {
+    color: #CCFFFF;
+    text-decoration-line: none;
+}
+
 
 /*--------------image----------*/
 .cropheaderimage {
