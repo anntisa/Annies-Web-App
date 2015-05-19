@@ -7,17 +7,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css">
         <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
-        <link rel="stylesheet" href="assets/css/app.css">
         <link rel="stylesheet" href="assets/css/style.css">
+
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.js"/>
+        <script type="text/javascript" src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"/>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
         <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
         <script src="bower_components/angular/angular.js"></script>
         <script src="bower_components/angular-route/angular-route.js"></script>
         <script src="app.js"></script>
         <script src="components/home/HomeController.js"></script>
-        <script src="components/view2/View2Controller.js"></script>
+        <script src="components/resume/ResumeController.js"></script>
         <script src="components/version/version.js"></script>
         <script src="components/version/version-directive.js"></script>
         <script src="components/version/interpolate-filter.js"></script>
@@ -29,29 +31,13 @@
                 <div class="menuheader">
                     <ul class="list-inline">
                         <li><a id="menuLink" href="#/home">Home</a></li>
-                        <li><a id="menuLink" href="#/view2">Resume</a></li>
+                        <li><a id="menuLink" href="#/resume">Resume</a></li>
                     </ul>
                 </div>
             </nav>
-            <!-- <ul class="nav nav-pills nav-justified">
-                <li><a href="#/view1">Resume</a></li>
-                <li><a href="#/view2">view 2</a></li>
-            </ul> -->
-        </div>
-        <div class="row">
-            <img class="center-block logo-header" src="assets/img/logo.png">
-            
-            
-        </div>
-        
-        <div class="cropheaderimage">
-            <img class="center-block banner" src="assets/img/headerImage.jpg">
         </div>
 
-      
-        <div class="container">
-            <div ng-view></div>
-        </div>
+        <div ng-view></div>
 
         <div>Angular seed app: v<span app-version></span></div>
         

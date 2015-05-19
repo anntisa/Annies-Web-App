@@ -3,7 +3,8 @@
 
 var myApp = angular.module('myApp', [
 	'ngRoute',
-	'myAppControllers'
+	'myAppControllers',
+    'myAppDirectives'
 ]);
 
 myApp.config(['$routeProvider',
@@ -14,10 +15,10 @@ myApp.config(['$routeProvider',
 				controller: 'HomeController',
 				templateUrl: 'components/home/home.html'
 			})
-			.when('/view2',
+			.when('/resume',
 			{
-				controller: 'View2Controller',
-				templateUrl: 'components/view2/view2.html'
+				controller: 'ResumeController',
+				templateUrl: 'components/resume/resume.html'
 			})
 			.otherwise({redirectTo: '/home'});
 
@@ -25,3 +26,5 @@ myApp.config(['$routeProvider',
 }]);
 
 var myAppControllers = angular.module('myAppControllers', []);
+var myAppDirectives = angular.module('myAppDirectives', []);
+
